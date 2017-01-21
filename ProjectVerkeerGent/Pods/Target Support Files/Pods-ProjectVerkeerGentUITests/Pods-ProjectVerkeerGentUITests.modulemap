@@ -1,0 +1,6 @@
+framework module Pods_ProjectVerkeerGentUITests {
+  umbrella header "Pods-ProjectVerkeerGentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
