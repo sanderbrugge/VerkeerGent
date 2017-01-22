@@ -2,23 +2,52 @@ import UIKit
 import RealmSwift
 class MeldingOverzichtViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var geenMeldingen: UIView!
+    @IBOutlet weak var titel: UILabel!
     fileprivate var meldingen: [MeldingObject] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         splitViewController!.delegate = self
+         print("LOG: in meldingsoverzichtviewcontroller")
         
         
         
-        print("LOG: in meldingsoverzichtviewcontroller")
+        tableView.addSubview(geenMeldingen)
+        geenMeldingen.translatesAutoresizingMaskIntoConstraints = false
+        tableView.addConstraints([
+            //nieuwe manier
+            geenMeldingen.widthAnchor.constraint(equalTo: tableView.widthAnchor),
+            geenMeldingen.heightAnchor.constraint(equalTo: tableView.heightAnchor)
+            ])
+        geenMeldingen.isHidden = true
+
+        
+      
+       
         getMeldingen()
+        let aantal = meldingen.count
+       updateTitel(aantal)
        // deleteAllInRealm()
+        if meldingen.count <= 0 {
+            self.showErrorView()
+            self.tableView.reloadData()
+        }
+        
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(refreshTableView), for: .valueChanged)
         tableView.refreshControl = refreshControl
 
     }
-    
+    private func showErrorView() {
+        self.geenMeldingen.isHidden = false
+        tableView.separatorStyle = .none
+    }
+    private func hideErrorView() {
+        self.geenMeldingen.isHidden = true
+        tableView.separatorStyle = .singleLine
+    }
+
     
     /*
      test functie om hardcoded data toe te voegen in realm
@@ -54,6 +83,14 @@ class MeldingOverzichtViewController: UIViewController {
             print("\(melding.type)")
         }
     }
+    func updateTitel(_ aantal: Int){
+        if aantal == 1 {
+            titel.text = "U heeft \(meldingen.count) melding geplaatst."
+        } else {
+            titel.text = "U heeft \(meldingen.count) meldingen geplaatst."
+            
+        }
+    }
     //unwind van de segue om de data direct te herladen na een cancel, of een add
     @IBAction func unwindFromToegevoegd(_ segue: UIStoryboardSegue) {
         let source = segue.source as! AddMeldingViewController
@@ -68,8 +105,11 @@ class MeldingOverzichtViewController: UIViewController {
             print("Vandaag: \(melding.datum)")
             
             meldingen.append(melding)
-            tableView!.reloadData()
+            refreshTableView()
         }
+    }
+    @IBAction func unwindFromNogAanwezig(_ segue: UIStoryboardSegue) {
+        refreshTableView()
     }
     override func viewDidAppear(_ animated: Bool) {
         tableView.reloadData()
@@ -91,7 +131,11 @@ class MeldingOverzichtViewController: UIViewController {
     }
     func refreshTableView() {
         self.tableView.reloadData()
-        
+        let aantal = meldingen.count
+        if aantal > 0 {
+            self.hideErrorView()
+            updateTitel(aantal)
+        }
         self.tableView.refreshControl!.endRefreshing()
     }
    

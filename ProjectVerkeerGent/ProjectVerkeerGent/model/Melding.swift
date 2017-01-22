@@ -1,13 +1,6 @@
-//
-//  Melding.swift
-//  ProjectVerkeerGent
-//
-//  Created by sander brugge on 3/01/17.
-//  Copyright © 2017 sander brugge. All rights reserved.
-//
 import CoreLocation
-import Foundation
-class Melding{
+
+class Melding {
     let type: String
     let transport: String
     let message: String
@@ -21,3 +14,8 @@ class Melding{
     }
     
 }
+/*extension Melding {
+    convenience init() throws{
+        
+    }
+}*/

@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ProjectVerkeerGent/MeldingOverzichtViewController.swift"
-            timestampString = "506711027.37625"
+            timestampString = "506719822.150758"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "getMeldingen()"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,13 +74,123 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ProjectVerkeerGent/MeldingOverzichtViewController.swift"
-            timestampString = "506711027.37625"
+            timestampString = "506719822.150758"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectVerkeerGent/MeldingOverzichtViewController.swift"
+            timestampString = "506719822.150758"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectVerkeerGent/MeldingOverzichtViewController.swift"
+            timestampString = "506719822.150758"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "MeldingOverzichtViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectVerkeerGent.MeldingOverzichtViewController.(meldingen in _C453661CB4616FC2CC9B84CC3C12DFD5).getter : Swift.Array&lt;ProjectVerkeerGent.MeldingObject&gt;"
+                  moduleName = "ProjectVerkeerGent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanderbrugge/Desktop/school/jaar3/IOS/ProjectVerkeerGent/ProjectVerkeerGent/MeldingOverzichtViewController.swift"
+                  timestampString = "506717733.834112"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectVerkeerGent.MeldingOverzichtViewController.(meldingen in _C453661CB4616FC2CC9B84CC3C12DFD5).setter : Swift.Array&lt;ProjectVerkeerGent.MeldingObject&gt;"
+                  moduleName = "ProjectVerkeerGent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanderbrugge/Desktop/school/jaar3/IOS/ProjectVerkeerGent/ProjectVerkeerGent/MeldingOverzichtViewController.swift"
+                  timestampString = "506717733.835474"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectVerkeerGent.MeldingOverzichtViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ProjectVerkeerGent.MeldingOverzichtViewController"
+                  moduleName = "ProjectVerkeerGent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanderbrugge/Desktop/school/jaar3/IOS/ProjectVerkeerGent/ProjectVerkeerGent/MeldingOverzichtViewController.swift"
+                  timestampString = "506717733.836739"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "202">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectVerkeerGent.MeldingOverzichtViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ProjectVerkeerGent.MeldingOverzichtViewController&gt;"
+                  moduleName = "ProjectVerkeerGent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanderbrugge/Desktop/school/jaar3/IOS/ProjectVerkeerGent/ProjectVerkeerGent/MeldingOverzichtViewController.swift"
+                  timestampString = "506717733.838"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "126">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectVerkeerGent/VerkeersSituatieViewController.swift"
+            timestampString = "506772441.798401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "VerkeersSituatieViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -10,12 +10,14 @@
 		077C3F03C2A0BD77557159C7 /* Pods_ProjectVerkeerGentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8F259FD09B260EEA8218BA /* Pods_ProjectVerkeerGentTests.framework */; };
 		65510CF2F797162BEE6998DC /* Pods_ProjectVerkeerGentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFDB747FFE4F5B7050D92E /* Pods_ProjectVerkeerGentUITests.framework */; };
 		8E8D43D174E31B8FA29FB053 /* Pods_ProjectVerkeerGent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC6E736DF67A1EE8D279B0C /* Pods_ProjectVerkeerGent.framework */; };
+		C3256C001E34C7E70028FD37 /* MeldingVanNetwerkOverzichtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3256BFF1E34C7E70028FD37 /* MeldingVanNetwerkOverzichtViewController.swift */; };
+		C3256C021E34CD0E0028FD37 /* MeldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3256C011E34CD0E0028FD37 /* MeldingCell.swift */; };
+		C390B7B61E34E3E800C2B808 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390B7B51E34E3E800C2B808 /* MapViewController.swift */; };
 		C3D3B43D1E2FD23000B14CB2 /* MeldingOverzichtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D3B43C1E2FD23000B14CB2 /* MeldingOverzichtViewController.swift */; };
 		C3D3B43F1E2FD84E00B14CB2 /* AddMeldingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D3B43E1E2FD84E00B14CB2 /* AddMeldingViewController.swift */; };
 		C3E64ECA1E3362C900AAFC57 /* MeldingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E64EC91E3362C900AAFC57 /* MeldingObject.swift */; };
 		C3EC12581E3397B80003AD09 /* MeldingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC12571E3397B80003AD09 /* MeldingDetailViewController.swift */; };
 		C3FD4CA41E1666BB00D79997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD4CA31E1666BB00D79997 /* AppDelegate.swift */; };
-		C3FD4CA61E1666BB00D79997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD4CA51E1666BB00D79997 /* ViewController.swift */; };
 		C3FD4CA91E1666BB00D79997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FD4CA71E1666BB00D79997 /* Main.storyboard */; };
 		C3FD4CAB1E1666BB00D79997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FD4CAA1E1666BB00D79997 /* Assets.xcassets */; };
 		C3FD4CAE1E1666BB00D79997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FD4CAC1E1666BB00D79997 /* LaunchScreen.storyboard */; };
@@ -50,13 +52,15 @@
 		5DC6E736DF67A1EE8D279B0C /* Pods_ProjectVerkeerGent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectVerkeerGent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A9D53D5833D75619C9FA73 /* Pods-ProjectVerkeerGent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectVerkeerGent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectVerkeerGent/Pods-ProjectVerkeerGent.debug.xcconfig"; sourceTree = "<group>"; };
 		BBCFDB747FFE4F5B7050D92E /* Pods_ProjectVerkeerGentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectVerkeerGentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3256BFF1E34C7E70028FD37 /* MeldingVanNetwerkOverzichtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeldingVanNetwerkOverzichtViewController.swift; sourceTree = "<group>"; };
+		C3256C011E34CD0E0028FD37 /* MeldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeldingCell.swift; sourceTree = "<group>"; };
+		C390B7B51E34E3E800C2B808 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C3D3B43C1E2FD23000B14CB2 /* MeldingOverzichtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeldingOverzichtViewController.swift; sourceTree = "<group>"; };
 		C3D3B43E1E2FD84E00B14CB2 /* AddMeldingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMeldingViewController.swift; sourceTree = "<group>"; };
 		C3E64EC91E3362C900AAFC57 /* MeldingObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeldingObject.swift; sourceTree = "<group>"; };
 		C3EC12571E3397B80003AD09 /* MeldingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeldingDetailViewController.swift; sourceTree = "<group>"; };
 		C3FD4CA01E1666BB00D79997 /* ProjectVerkeerGent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectVerkeerGent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FD4CA31E1666BB00D79997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3FD4CA51E1666BB00D79997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3FD4CA81E1666BB00D79997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3FD4CAA1E1666BB00D79997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3FD4CAD1E1666BB00D79997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -145,7 +149,6 @@
 				C3FD4CD21E166A2A00D79997 /* Model */,
 				C3FD4CD11E166A1F00D79997 /* ViewController */,
 				C3FD4CA31E1666BB00D79997 /* AppDelegate.swift */,
-				C3FD4CA51E1666BB00D79997 /* ViewController.swift */,
 				C3FD4CA71E1666BB00D79997 /* Main.storyboard */,
 				C3FD4CAA1E1666BB00D79997 /* Assets.xcassets */,
 				C3FD4CAC1E1666BB00D79997 /* LaunchScreen.storyboard */,
@@ -179,8 +182,11 @@
 				C3D3B43C1E2FD23000B14CB2 /* MeldingOverzichtViewController.swift */,
 				C3D3B43E1E2FD84E00B14CB2 /* AddMeldingViewController.swift */,
 				C3EC12571E3397B80003AD09 /* MeldingDetailViewController.swift */,
+				C3256BFF1E34C7E70028FD37 /* MeldingVanNetwerkOverzichtViewController.swift */,
+				C390B7B51E34E3E800C2B808 /* MapViewController.swift */,
 			);
 			name = ViewController;
+			path = viewController;
 			sourceTree = "<group>";
 		};
 		C3FD4CD21E166A2A00D79997 /* Model */ = {
@@ -188,8 +194,10 @@
 			children = (
 				C3FD4CD81E1BE01200D79997 /* Melding.swift */,
 				C3E64EC91E3362C900AAFC57 /* MeldingObject.swift */,
+				C3256C011E34CD0E0028FD37 /* MeldingCell.swift */,
 			);
 			name = Model;
+			path = model;
 			sourceTree = "<group>";
 		};
 		C3FD4CD31E166A3000D79997 /* Service */ = {
@@ -198,6 +206,7 @@
 				C3FD4CD61E167B7700D79997 /* VerkeerSituatie.swift */,
 			);
 			name = Service;
+			path = service;
 			sourceTree = "<group>";
 		};
 		C6D846F241559DC43455C11C /* Frameworks */ = {
@@ -491,15 +500,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C390B7B61E34E3E800C2B808 /* MapViewController.swift in Sources */,
 				C3FD4CD71E167B7700D79997 /* VerkeerSituatie.swift in Sources */,
 				C3FD4CD91E1BE01200D79997 /* Melding.swift in Sources */,
 				C3D3B43D1E2FD23000B14CB2 /* MeldingOverzichtViewController.swift in Sources */,
-				C3FD4CA61E1666BB00D79997 /* ViewController.swift in Sources */,
 				C3D3B43F1E2FD84E00B14CB2 /* AddMeldingViewController.swift in Sources */,
+				C3256C021E34CD0E0028FD37 /* MeldingCell.swift in Sources */,
 				C3E64ECA1E3362C900AAFC57 /* MeldingObject.swift in Sources */,
 				C3EC12581E3397B80003AD09 /* MeldingDetailViewController.swift in Sources */,
 				C3FD4CD51E1671FC00D79997 /* VerkeersSituatieViewController.swift in Sources */,
 				C3FD4CA41E1666BB00D79997 /* AppDelegate.swift in Sources */,
+				C3256C001E34C7E70028FD37 /* MeldingVanNetwerkOverzichtViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
